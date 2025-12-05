@@ -3,22 +3,23 @@ package org.example;
 
 import java.util.Scanner;
 
-public class refactor {
+public class Refactor {
+    // Refactorizacion: refactor -> Refactor
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int Opt;
         do {
-        System.out.println("Elige una opción:");
-        System.out.println("1. Sumatorio");
-        System.out.println("2. Media");
-        System.out.println("3. Salir");
-        Opt = scanner.nextInt();
-        scanner.nextLine();
+            System.out.println("Elige una opción:");
+            System.out.println("1. Sumatorio");
+            System.out.println("2. Media");
+            System.out.println("3. Salir");
+            Opt = scanner.nextInt();
+            scanner.nextLine();
 
             if (Opt == 1) {
-            int chisme;
-            do {
+                int chisme;
+                do {
                     System.out.print("Introduce un entero positivo: ");
                     chisme = scanner.nextInt();
                     scanner.nextLine();
@@ -33,7 +34,8 @@ public class refactor {
             } else if (Opt == 2) {
                 int _zzzz;
                 do {
-                    System.out.print("Introduce un entero positivo: ");_zzzz = scanner.nextInt();
+                    System.out.print("Introduce un entero positivo: ");
+                    _zzzz = scanner.nextInt();
                     scanner.nextLine();
                 } while (_zzzz <= 0);
 
@@ -51,4 +53,7 @@ public class refactor {
                 System.out.println("Opción inválida");
             }
 
-        } while (Opt != 3);}}
+        } while (Opt != 3);
+    }
+}
+// Codigo formateado
